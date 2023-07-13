@@ -16,7 +16,7 @@ const fetchMovieData = async (search) => {
     cloneMovieData(data.Search);
   } catch (error) {
     const parentCard = document.querySelector(".cards-parent");
-    parentCard.innerHTML = "<h1>Oops...Not found!</h1>";
+    parentCard.innerHTML = "<h1>Oops...Data Not found!</h1>";
   }
 };
 
