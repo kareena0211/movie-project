@@ -5,9 +5,9 @@
 }
 
 h1 {
-    /* border: 2px solid darkblue?; */
+    border: 2px solid darkblue;
     border-radius: 10px;
-    /* background-color: tan; */
+    background-color: tan;
     text-align: center;
     margin: 2rem;
     font-size: 3rem;
@@ -49,6 +49,8 @@ h1 {
     margin-left: 1rem;
 }
 
+
+
 .cards-parent {
     display: flex;
     margin: 2rem;
@@ -63,7 +65,7 @@ h1 {
     width: 17rem;
     border-radius: 0.5rem;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-        rgba(0, 0, 0, 0.12) 0px -12px 30px  , rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
         rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     transition: all 0.3s linear;
     cursor: pointer;
