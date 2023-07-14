@@ -2,10 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: antiquewhite;
 }
 
 h1 {
-    border: 2px solid darkblue;
+    /* border: 2px solid darkblue; */
     border-radius: 10px;
     background-color: tan;
     text-align: center;
